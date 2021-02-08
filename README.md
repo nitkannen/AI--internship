@@ -14,7 +14,7 @@ calculates a compatibility score between the user and every other profile.
 * With these weighted interest dictionaries, we calculate a weighted sum of the interests of all liked/connected profiles and call it "taste preference" of the user.
 
 Taste Preference  = (*Sigma* alphai X interesti) / N
-                            - where alpha is the weight of i-th profile and N is the total number of likes by user.
+                            ; where alpha is the weight of i-th profile and N is the total number of likes by user.
                             
 * We use the Cosine similarity heuristic for all computations.
 
